@@ -1,5 +1,5 @@
 @echo off
 git add .
-git commit --allow-empty -m "force deploy"
-git push origin main
+git commit -m "ccc"
+git push origin main --force
 pause
